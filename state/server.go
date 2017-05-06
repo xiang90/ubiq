@@ -31,3 +31,15 @@ func (s *Server) Notify(e Event) error {
 
 	return nil
 }
+
+func (s *Server) CreateWorkUnit() {
+
+}
+
+func (s *Server) RetrieveWorkUnit() {
+
+}
+
+func (s *Server) CommitWorkUnit() {
+
+}
