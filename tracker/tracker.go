@@ -11,3 +11,6 @@ func NewDirServer(root string) (*DirServer, error) {
 func (s *DirServer) Start() error {
 	return nil
 }
+
+type S3Server struct {
+}
