@@ -17,7 +17,7 @@ type UnitCreator struct {
 
 // Start starts unit creator as a background go routine.
 func (uc *UnitCreator) Start(ctx context.Context) error {
-
+	return nil
 }
 
 func (uc *UnitCreator) createWorkUnit() {
